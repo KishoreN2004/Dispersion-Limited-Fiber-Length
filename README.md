@@ -1,18 +1,14 @@
 # Dispersion-Limited-Fiber-Length
-Dispersion Limited Fiber Length
+
+# KISHORE N
+# 212223065001
 # Objective: 
- 
 Calculate the dispersion-limited fiber length for a fiber optic transport system that 
 employs standard single-mode fiber and a directly-modulated single-mode laser diode 
-transmitter. 
- 
-Simulate the resulting system and verify that it meets performance objective.  
- 
+transmitter. Simulate the resulting system and verify that it meets performance objective.  
 # Theory: 
- 
 The maximum allowable dispersion (or pulse spread) <img width="76" height="52" alt="image" src="https://github.com/user-attachments/assets/52dff457-e7aa-4312-aef4-aa4e234afb47" /> is given in terms of the transmission rate R by the following engineering guideline <img width="192" height="124" alt="image" src="https://github.com/user-attachments/assets/4fcb3de9-6a4a-48db-ba5f-f020a6c85d8b" /> This guideline provides reasonable assurance that there will be no significant inter
 symbol interference (ISI) due to pulse spread. 
- 
 For standard single-mode fiber driven by a directly-modulated laser diode transmitter, the 
 pulse spread due to chromatic dispersion is given by
 <img width="898" height="694" alt="image" src="https://github.com/user-attachments/assets/5499f4b0-2405-4a5f-b773-ce004a76e850" />
@@ -38,5 +34,12 @@ Using the chromatic dispersion factor equation, determine the dispersion of the 
 1550 nm and set the fiber dispersion parameter accordingly. 
 Using the equations above, determine the dispersion-limited fiber length. 
 <img width="1262" height="1044" alt="image" src="https://github.com/user-attachments/assets/e0b20ca6-42b4-4f1b-ac9a-e4f931a85001" />
+
+<img width="1920" height="1080" alt="Screenshot 2026-10-29 105804" src="https://github.com/user-attachments/assets/ac869433-6610-46fc-bf3c-b126a831f966" />
+
 # Tabulation
+
+<img width="915" height="1549" alt="WhatsApp Image 2026-11-02 at 9 04 23 AM" src="https://github.com/user-attachments/assets/5cedd7b1-36e4-44eb-ab60-d034bdcff2f8" />
+
 # Result
+The dispersion-limited fiber length for the given optical communication system was found to be approximately 10 km. The simulation results showed acceptable BER performance with a clear eye diagram and minimal intersymbol interference. Hence, the system operated successfully within the dispersion limit.
